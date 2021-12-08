@@ -1,0 +1,24 @@
+p{
+    font-size: 30px;
+}
+body{
+    color:green;
+  }
+  body{
+      background-color:turquoise;
+    }
+    body{
+      font-size: 30px;
+      }
+  button{
+      width: 100%;
+      min-width: 200px;
+      max-width: 600px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #68779a;
+      background: blue;
+      cursor: pointer;
+      font-size: 30px;
+  }
+  
