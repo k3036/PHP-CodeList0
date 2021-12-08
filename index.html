@@ -1,0 +1,63 @@
+//出力と演算子
+<? php
+$num01 = 123;
+$num02 = 1.23;
+echo gettype($num01)."\n";
+echo gettype($num02)."\n";
+var_dump($num02)."\n";
+echo "HelloWorld";
+
+//bool型
+<? php
+$a = 10;
+$b = 1;
+$bool01 = ($a >$b);
+echo $bool01."\n";
+echo gettype($bool01)."/n";
+//配列
+<? php
+$a = array(3);
+$a[0] = "sato";
+$a[1] = "suzuki";
+$a[2] = "takahashi";
+echo($a[0])."\n";
+echo($a[1])."\n";
+echo($a[2])."\n";
+//配列2
+<? php
+$a = array("sato", "suzuki", "takahashi");
+echo($a[0])."\n";
+echo($a[1])."\n";
+echo($a[2])."\n";
+//2次元配列
+<? php
+$a[["sato", "suzuki"].["takahashi", "tanaka"]];
+
+echo($a[0][0])."\n";
+echo($a[0][1])."\n";
+echo($a[1][0])."\n";
+echo($a[1][1])."\n";
+//演算子
+<? php
+$x = 10;
+$y = 2;
+echo($x +$y)."\n";
+echo($x -$y)."\n";
+echo($x /$y)."\n";
+echo($x *$y)."\n";
+echo($x %$y)."\n";
+//関係演算子
+<? php
+$x = 10;
+$y = 2;
+echo($x >$y)."\n";
+echo($x <$y)."\n";//非表示はfalse
+echo($x >=$z)."\n";
+
+<? php
+$x = 10;
+$y = 2;
+$z = 10;
+echo($x <=$y)."\n";
+echo($x >=$z)."\n";
+
