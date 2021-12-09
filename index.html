@@ -1,13 +1,15 @@
-<p>//出力と演算子</p>
-<p><? php</p>
-<p>$num01 = 123;</p>
-<p>$num02 = 1.23;</p>
-<p>echo gettype($num01)."\n";</p>
-<p>echo gettype($num02)."\n";</p>
-<p>var_dump($num02)."\n";</p>
-<p>echo "HelloWorld";</p>
-<p>//bool型</p>
-<p><? php</p>
+
+ //出力と演算子<p></p>
+ <? php<p></p>
+$num01 = 123;<p></p>
+$num02 = 1.23;<p></p>
+echo gettype($num01)."\n";<p></p>
+echo gettype($num02)."\n";<p></p>
+var_dump($num02)."\n";<p></p>
+echo "HelloWorld";<p></p>
+
+//bool型<p></p>
+<? php<p></p>
 $a = 10;<p></p>
 $b = 1;<p></p>
 $bool01 = ($a >$b);<p></p>
@@ -28,3 +30,34 @@ $a = array("sato", "suzuki", "takahashi");<p></p>
 echo($a[0])."\n";<p></p>
 echo($a[1])."\n";<p></p>
 echo($a[2])."\n";<p></p>
+//2次元配列<p></p>
+<? php<p></p>
+$a[["sato", "suzuki"].["takahashi", "tanaka"]];<p></p>
+
+echo($a[0][0])."\n";<p></p>
+echo($a[0][1])."\n";<p></p>
+echo($a[1][0])."\n";<p></p>
+echo($a[1][1])."\n";<p></p>
+//演算子<p></p>
+<? php<p></p>
+$x = 10;<p></p>
+$y = 2;<p></p>
+echo($x +$y)."\n";<p></p>
+echo($x -$y)."\n";<p></p>
+echo($x /$y)."\n";<p></p>
+echo($x *$y)."\n";<p></p>
+echo($x %$y)."\n";<p></p>
+//関係演算子<p></p>
+<? php<p></p>
+$x = 10;<p></p>
+$y = 2;<p></p>
+echo($x >$y)."\n";<p></p>
+echo($x <$y)."\n";//非表示はfalse<p></P>
+echo($x >=$z)."\n";<p></p>
+
+<? php<p></p>
+$x = 10;<p></p>
+$y = 2;<p></p>
+$z = 10;<p></p>
+echo($x <=$y)."\n";<p></p>
+echo($x >=$z)."\n";<p></p>
