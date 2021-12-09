@@ -189,3 +189,71 @@ $say_hello=function(){<p></p>
      echo"GoodMorning"."\n";<p></p>
 } ;<p></p>
 $say_hello();<p></p>
+<?php<p></p>
+function cal($x,$y){<p></p>
+      return $x/$y.<p></p>
+};<p></p>
+echo $result=cal(6,3);<p></p>
+echo $result."\n";<p></p>
+//平均を出す関数の記述<p></p>
+<?php<p></p>
+fuction cal($a,$b,$c){<p></p>
+      return($a+$b+$c)/3;<p></p>
+};<p></p>
+$result=cal(9,4,2);<p></p>
+echo $result."\n";<p></p>
+<?php<p></p>
+function cal($x,$y,$z){<p></p>
+    return($x+$y+$z)/3;<p></p>
+};<p></p>
+$result=cal(9,4,2);<p></p>
+echo $result."\n";<p></p>
+$result=cal(10,20,30);<p></p>
+echo $result."\n";<p></p>
+//class<p></p>
+<?php<p></p>
+class Student{<p></p>
+       function avg(){<p></p>
+           echo((80+70)/2).<p></p>
+       }<p></p>
+}<p></p>
+$a001=new Student();<p></p>
+$a001->avg();<p></p>
+//引数で渡して計算できるようにする。
+<?php<p></p>
+class Student{<p></p>
+    function avg($math,$english){<p></p>
+        echo(($math+$english)/2)."\n";<p></p>
+    }<p></p>
+}<p></p>
+$a001=new Student();<p></p>
+$a001->avg(80,70);<p></p>
+$a001->avg(30,70);<p></p>
+//プロパティ<p></p>
+<?php<p></p>
+class Student{
+    public $name;
+    function avg($math,$english){
+        echo(($math+$english)/2)."\n";<p></p>
+    }<p></p>
+}<p></p>
+$a001=new Student();<p></p>
+$a001->avg(80,70);<p?></p>
+$a001->name="sato";<p></p>
+echo $a001->name."\n";<p></p>
+<?php
+class Student{<p></p>
+    public $name;<p></p>
+    public function_construct(){<p></p>
+    $this->name="tanaka";<p></p>
+}
+function avg($mash,$english){<p></p>
+    echo(($math+$english)/2)."\n";<p></p>
+}<p></p>
+}<p></p>
+$a001=new Student();<p></p>
+$a001->name="sato";<p></p>
+$a001->avg(80,70);<p></p>
+echo $a001->name."\n";<p></p>
+$a002=new Student();<p></p>
+echo $a002->name."\n";<p></p>
