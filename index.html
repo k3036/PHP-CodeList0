@@ -119,3 +119,73 @@ else<p></p>
 {<p></p>
  　 echo("child");<p></p>
 }<p></p>
+<?php<p></p>
+$age=100;<p></p>
+if($age<=20){<p></p>
+    echo("10代");<p></p>
+}else if(age<=30){<p></p>
+    echo("20代");<p></p>
+}else if($age<=40){<p></p>
+    echo("30代");<p></p>
+}else{<p></p>
+    echo(それ以外);<p></p>
+}<p></p>
+//for文<p></p>
+<?php<p></p>
+for($x=1;$x<=10;++x;){<p></p>
+    echo$x."\n";<p></p>
+}<p></p>
+<?php<p></P>
+for($i=0;$i<=5;$i++){<p></p>
+    if($i==3){<p></p>
+        break;//ストップ<p></p>
+    }<p></p>
+    echo $i."\n";<p></p>
+}<p></p>
+<?php<p></P>
+for($i=0;$i<=4;$i++){<p></p>
+    if($i==3){<p></p>
+        continue;//スキップ<p></p>
+    }<p></p>
+}<p></p>
+//For文のネスト（ＡにＡが入っていることをネストという）<p></p>
+<?php<p><\P>
+for($i=0;$i<=2;$i++){<p></p>
+    for($j=0;$j<=2;$j++){<p></P>
+        echo $i.'-'.$j."\n";<p></p>
+    }<p></p>
+}<p></p>
+//カウンター変数で配列の中身を表示する<p></p>
+<?php<p></p>
+$arr=[2,4,6,8,10];<p></p>
+for($i=0;$i<=4;$i++){<p></p>
+    echo $arr[$i]."\n";<p></p>
+}<p></p>
+<?php<p></p>
+$arr=[2,4,6,8,10];<p></p>
+$sum=0;<p></p>
+for($i=0;$i<=4;$i++){<p></p>
+    $sum+=$arr[$i];<p></p>
+}<p></p>
+echo $sum."\n";<p></p>
+<?php<p></p>
+for($x=1;$x<=10;$x++){<p></p>
+if($x==2){<p></p>
+continue;<p></p>
+}else if($x==7){<p></p>
+    break;
+}else{<p></p>
+    echo $x."\n";<p></p>
+}<p></p>
+//関数の定義
+<?php<p></p>
+function say\_hello(){<p></p>//関数の定義にfanction;
+    echo"HelloWorld"."\n";<p></p>
+}<p></p>
+say_hello();<p></p>
+//関数を変数に代入
+<?php<p></p>
+$say_hello=function(){<p></p>
+     echo"GoodMorning"."\n";<p></p>
+} ;<p></p>
+$say_hello();<p></p>
